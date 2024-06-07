@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+body {
+  margin: 2rem;
+}
+/* preview-card-right*/
+
+.preview-card {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  max-width: 400px;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  box-shadow: 10px 10px blueviolet;
+}
+
+.preview-card > img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  object-position: middle;
+}
+.author {
+  display: flex;
+  margin-block: 1rem 0;
+  align-items: center;
+  font-size: 0.75rem;
+  color: gray;
+  gap: 0.45rem;
+}
+.avatar-img {
+  display: flex;
+  width: 10%;
+  border: 2px solid blueviolet;
+  border-radius: 100%;
+}
+p:first-child {
+  flex-grow: 1;
+}
+.category {
+  display: flex;
+  padding: 1rem 0 1rem;
+  gap: 0.45rem;
+}
+.category a {
+  padding: 4px 9px;
+  background-color: deepskyblue;
+  color: black;
+  border-radius: 1rem;
+  font-size: 14px;
+}
+h2 {
+  display: flex;
+  padding: 0 0 1rem;
+  margin-block: 0;
+  font-size: 1.25rem;
+}
+.butten {
+  padding: 1rem 0 0.75rem;
+}
+.a1 {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 0.25rem;
+}
+/* preview-card-left*/
+
+.preview-card-2 {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  max-width: 400px;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.75rem;
+  box-shadow: 10px 10px darkorange;
+}
+
+.preview-card-2 > img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.35rem;
+  object-position: middle;
+}
+.author-2 {
+  display: flex;
+  margin-block: 1rem 0;
+  align-items: center;
+  font-size: 0.75rem;
+  color: gray;
+  gap: 0.45rem;
+}
+.avatar-img-2 {
+  display: flex;
+  width: 10%;
+  border: 2px solid darkorange;
+  border-radius: 100%;
+}
+
+.content-2 h2 {
+  display: flex;
+  padding: 0 0 2.45rem;
+  margin-block: 0;
+  font-size: 1.25rem;
+  align-items: center;
+}
+.a2 {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: darkorange;
+  color: white;
+  border-radius: 0.25rem;
+}
